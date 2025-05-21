@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to bottom right, rgb(53, 68, 73), rgba(132, 110, 165, 0.445),rgb(53, 68, 73));
+    color: rgb(45, 41, 0);
+    font-family: "Footlight MT Light";
+}
+.container a{
+    font-size: 25px;
+}
+.nav-link:hover {
+    color: red !important;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+.social-icons a {
+    color: rgb(4, 4, 4);
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: red;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.highlight {
+    color: #ff710b;
+}
+.myimg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.myimg:hover img {
+    transform: scale(1.1);
+}
+.skill-badge {
+    background-color: #01560152;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.skill-badge:hover {
+    transform: scale(1.1);
+}
+.background {
+   width: 100%;
+   background-color: rgba(165, 255, 252, 0.168);
+   color: rgb(0, 43, 65);
+   padding: 30px;
+   border-radius: 30px;
+   text-align: justify;
+}
+.background p{
+font-size: 25px;
+}
+td{
+font-size: 30px;
+color: rgb(0, 41, 74);
+}
+.image{
+width: 300px;
+height: 200px;
+border-radius: 10px;
+}
